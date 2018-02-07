@@ -1,0 +1,13 @@
+.TitleBarText {
+  font-style: italic;
+  font-size: 32pt;
+  font-family: Bookman;
+}
+
+.TitleBarLayout {
+  text-align: center;
+  float: none;
+  background-color: #001d73e6 !important;
+  margin-bottom: 0 !important;
+  color: #FFFFFF;
+}
