@@ -1,11 +1,14 @@
-/* .navbar-nav{
-    float:none;
+.centreNav {
+    width: 100%;
+    display: table; 
     margin: 0 auto;
-    display: table;
-    table-layout: fixed;
-} */
+    display: inline-block;
+    text-align: center;
+    float: none;
+}
 
-
-.test {
-    height: 100px;
+.navItem {
+    display: inline-block;
+    margin: 10px;
+    text-align: center; 
 }
