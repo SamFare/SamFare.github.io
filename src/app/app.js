@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import TitleBar from "../TitleBar/titleBar.js";
-import NavigationBar from "../NavigationBar/NavigationBar.js";
+import AboutPage from "../AboutPage/AboutPage.js";
 
 class App extends React.Component{
   render(){
     return (
       <div>
         <TitleBar />
-        <NavigationBar />
+        <AboutPage />
       </div>
     );
   }
