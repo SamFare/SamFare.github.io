@@ -1,0 +1,11 @@
+.textElement {
+    display: inline-block;
+    display: flex;
+    margin: 20px;
+}
+
+.subElement {
+    float: none;
+    display: inline-block;
+    margin: 10px;
+}
