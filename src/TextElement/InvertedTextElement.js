@@ -1,8 +1,9 @@
 import React from "react";
+import TextElement from "./TextElement.js";
 
 import css from "./TextElement.css";
 
-export default class InvertedTextElement extends React.Component{
+export default class InvertedTextElement extends TextElement{
   render(){
     return (
       <div className={css.textElement}>
