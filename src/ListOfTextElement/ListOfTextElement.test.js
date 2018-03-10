@@ -26,7 +26,7 @@ describe("there are three elements ",  () => {
     expect(context.listOfTextElement.getInstance().listItems.length).toEqual(3);
   });
 
-  test("has the number of elements that is requested",() => {
+  test("matches the snapshot",() => {
     expect(context.listOfTextElement).toMatchSnapshot();
   });
 });
@@ -38,7 +38,7 @@ describe("there are no elements ",  () => {
     );
   });
 
-  test("has the number of elemebts that is requested",() => {
+  test("has the number of elements that is requested",() => {
     expect(context.listOfTextElement.getInstance().listItems.length).toEqual(0);
   });
 });

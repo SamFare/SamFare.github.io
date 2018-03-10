@@ -7,9 +7,8 @@ export default class ListOfTextElement extends React.Component{
   
   constructor(props) {
     super(props);
-    const { elements } = this.props;
-    this.listItems = this.generateElements(elements); 
-    this.generateElements = this.generateElements.bind(this);
+    this.listItems = this.generateJSXElements(props.elements); 
+    this.generateJSXElements = this.generateJSXElements.bind(this);
   }
 
   static get propTypes() { 
@@ -18,20 +17,23 @@ export default class ListOfTextElement extends React.Component{
     };
   }
 
-  generateElements(elementJson) {
+  generateJSXElements(elementAsJson) {
     let index = 0;
     let elementAsJsx = []; 
     
-    for(let element of elementJson) {
-      if(index % 2) {
-        elementAsJsx.push(<InvertedTextElement key={index} img={element.img}/>);
-      } else {
-        elementAsJsx.push(<TextElement key={index} />);
-      }
+    for(let jsonElement of elementAsJson) {
+      elementAsJsx.push(this.selectCorrectJSXElementToAdd(jsonElement, index))
       ++index;
     }
 
     return elementAsJsx;
+  }
+
+  selectCorrectJSXElementToAdd(jsonElement, index) {
+    if(index % 2) {
+      return <InvertedTextElement key={index} img={jsonElement.img}/>;
+    }
+    return <TextElement key={index} />;
   }
 
   render(){

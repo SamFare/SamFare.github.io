@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`there are three elements  has the number of elements that is requested 1`] = `
+exports[`there are three elements  matches the snapshot 1`] = `
 <div>
   <div
     className={undefined}
