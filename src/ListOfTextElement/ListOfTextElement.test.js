@@ -1,27 +1,44 @@
-import React from 'react';
-import {shallow} from 'enzyme';
+import React from "react";
 import ListOfTextElement from "./ListOfTextElement.js";
-import renderer from 'react-test-renderer';
+import renderer from "react-test-renderer";
 
-import Enzyme from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import Enzyme from "enzyme";
+import Adapter from "enzyme-adapter-react-16";
 
 Enzyme.configure({ adapter: new Adapter() });
 
 let context = {};
 
-beforeEach(() => {
-  context.elementArray =  [
-    {img: "test.png", text: "this is text" },
-    {img: "test2.png", text: "this is text" },
-    {img: "test3.png", text: "this is text" },
-  ]
+describe("there are three elements ",  () => {
+  beforeEach(() => {
+    context.elementArray =  [
+      {img: "test.png", text: "this is text" },
+      {img: "test2.png", text: "this is text" },
+      {img: "test3.png", text: "this is text" },
+    ];
+  
+    context.listOfTextElement = renderer.create(
+      <ListOfTextElement elements={context.elementArray} />
+    ); 
+  });
 
-  context.listOfTextElement = renderer.create(
-    <ListOfTextElement elements={context.lementArray} />,
-  );
-})
+  test("has the number of elemebts that is requested",() => {
+    expect(context.listOfTextElement.getInstance().listItems.length).toEqual(3);
+  });
 
-test("has the number of elemebts that is requested",() => {
-  expect(context.listOfTextElement.getInstance().numberOfElements).toEqual(3);
-})
+  test("has the number of elements that is requested",() => {
+    expect(context.listOfTextElement).toMatchSnapshot();
+  });
+});
+
+describe("there are no elements ",  () => {
+  beforeEach(() => {
+    context.listOfTextElement = renderer.create(
+      <ListOfTextElement elements={[]} />
+    );
+  });
+
+  test("has the number of elemebts that is requested",() => {
+    expect(context.listOfTextElement.getInstance().listItems.length).toEqual(0);
+  });
+});
