@@ -6,8 +6,8 @@
   "scripts": {
     "update": "jest --updateSnapshot",
     "start": "eslint src && webpack-dev-server --hot --progress --colors",
-    "build": "webpack",
-    "test": "jest",
+    "build": "eslint src && webpack",
+    "test": "eslint src && jest",
     "testDebug": "node --inspect-brk node_modules/.bin/jest --runInBand"
   },
   "author": "Sam Fare",

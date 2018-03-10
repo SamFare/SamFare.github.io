@@ -22,7 +22,7 @@ export default class ListOfTextElement extends React.Component{
     let elementAsJsx = []; 
     
     for(let jsonElement of elementAsJson) {
-      elementAsJsx.push(this.selectCorrectJSXElementToAdd(jsonElement, index))
+      elementAsJsx.push(this.selectCorrectJSXElementToAdd(jsonElement, index));
       ++index;
     }
 
@@ -31,9 +31,9 @@ export default class ListOfTextElement extends React.Component{
 
   selectCorrectJSXElementToAdd(jsonElement, index) {
     if(index % 2) {
-      return <InvertedTextElement key={index} img={jsonElement.img}/>;
+      return <InvertedTextElement key={index} text={jsonElement.text} img={jsonElement.img}/>;
     }
-    return <TextElement key={index} />;
+    return <TextElement key={index} text={jsonElement.text} img={jsonElement.img}/>;
   }
 
   render(){
