@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A text element it has the image that was passed in 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <img
+      height="100"
+      src="text"
+      width="100"
+    />
+  </div>
+  <div
+    className={undefined}
+  >
+    test.png
+  </div>
+</div>
+`;
