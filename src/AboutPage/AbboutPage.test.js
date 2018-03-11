@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import ListOfTextElement from "./ListOfTextElement.js";
 import renderer from "react-test-renderer";
 
@@ -11,4 +11,4 @@ let context = {};
 
 describe("AboutPage", () => {
 
-});
+}); */

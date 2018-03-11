@@ -21,10 +21,10 @@ export default class TextElement extends React.Component{
     return (
       <div className={css.textElement}>  
         <div className={css.subElement}>
-          <img src={this.props.text}  height="100" width="100"/>
+          <img src={this.props.img}  height="100" width="100"/>
         </div>
         <div className={css.textElement}>
-          {this.props.img}
+          {this.props.text}
         </div>  
       </div>
     );
