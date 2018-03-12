@@ -8,7 +8,7 @@ export default class InvertedTextElement extends TextElement{
     return (
       <div className={css.textElement}>
         <div className={css.textElement}>
-            {this.props.text}
+          {this.props.text}
         </div>   
         <div className={css.subElement}>
           <img src={this.props.img}  height="100" width="100"/>
