@@ -10,14 +10,14 @@ exports[`there are three elements  matches the snapshot 1`] = `
     >
       <img
         height="100"
-        src="this is text"
+        src="test.png"
         width="100"
       />
     </div>
     <div
       className={undefined}
     >
-      test.png
+      this is text
     </div>
   </div>
   <div
@@ -26,14 +26,14 @@ exports[`there are three elements  matches the snapshot 1`] = `
     <div
       className={undefined}
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta accumsan molestie. Suspendisse potenti. Vivamus eu tempus dui, eu consectetur metus. Sed non est gravida, egestas est sed, vulputate tortor. Sed quis eros quis elit congue tempor vitae vitae enim. Aliquam sed ultrices elit. Duis venenatis consequat enim, faucibus porttitor eros suscipit non. Pellentesque rutrum aliquet nibh, eget iaculis nibh lobortis bibendum. Proin consectetur, turpis eget blandit ultricies, neque nisi facilisis leo, vel dapibus velit est dignissim nunc.
+      this is text
     </div>
     <div
       className={undefined}
     >
       <img
         height="100"
-        src="../../assets/about-page-pic.jpg"
+        src="test2.png"
         width="100"
       />
     </div>
@@ -46,14 +46,14 @@ exports[`there are three elements  matches the snapshot 1`] = `
     >
       <img
         height="100"
-        src="this is text"
+        src="test3.png"
         width="100"
       />
     </div>
     <div
       className={undefined}
     >
-      test3.png
+      this is text
     </div>
   </div>
 </div>

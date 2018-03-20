@@ -1,5 +1,5 @@
-/*import React from "react";
-import ListOfTextElement from "./ListOfTextElement.js";
+import React from "react";
+import AboutPage from "./AboutPage.js";
 import renderer from "react-test-renderer";
 
 import Enzyme from "enzyme";
@@ -9,6 +9,14 @@ Enzyme.configure({ adapter: new Adapter() });
 
 let context = {};
 
-describe("AboutPage", () => {
+describe("an about page=", () => {
+  beforeEach(() => {
+    context.aboutPage = renderer.create(
+      <AboutPage />
+    );
+  });
 
-});*/
+  it("it has the image that was passed in", () => {
+    expect(context.aboutPage).toMatchSnapshot();
+  });
+});

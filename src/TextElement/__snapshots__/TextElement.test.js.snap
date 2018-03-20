@@ -9,14 +9,14 @@ exports[`A text element it has the image that was passed in 1`] = `
   >
     <img
       height="100"
-      src="text"
+      src="test.png"
       width="100"
     />
   </div>
   <div
     className={undefined}
   >
-    test.png
+    text
   </div>
 </div>
 `;
