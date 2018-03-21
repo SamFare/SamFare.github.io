@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import TextElement from "../TextElement/TextElement.js";
 import InvertedTextElement from "../TextElement/InvertedTextElement.js";
 

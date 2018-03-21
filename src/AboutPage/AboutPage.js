@@ -5,7 +5,7 @@ import ListOfTextElement from "../ListOfTextElement/ListOfTextElement.js";
 
 import data from "../../data/career-data.json";
 
-export default class NavigationBar extends React.Component{
+export default class AboutPage extends React.Component{
   constructor() {
     super();
   }
@@ -13,7 +13,7 @@ export default class NavigationBar extends React.Component{
   render(){
     return (
       <div>
-        <PhotoHeader />
+        <PhotoHeader text={"About"}/>
         <ListOfTextElement elements={data.data} />
       </div>
     );
