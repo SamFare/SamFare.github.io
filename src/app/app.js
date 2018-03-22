@@ -10,7 +10,6 @@ class App extends React.Component{
       <div>
         <TitleBar />
         <AboutPage />
-        <SkillPage />
       </div>
     );
   }

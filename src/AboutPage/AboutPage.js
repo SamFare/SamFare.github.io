@@ -2,6 +2,7 @@ import React from "react";
 
 import PhotoHeader from "../PhotoHeader/PhotoHeader.js";
 import ListOfTextElement from "../ListOfTextElement/ListOfTextElement.js";
+import BarChartElement from "../BarChartElement/BarChartElement.js";
 
 import data from "../../data/career-data.json";
 
@@ -15,6 +16,7 @@ export default class AboutPage extends React.Component{
       <div>
         <PhotoHeader text={"About"}/>
         <ListOfTextElement elements={data.data} />
+        <BarChartElement />
       </div>
     );
   }
