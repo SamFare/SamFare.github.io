@@ -20,6 +20,7 @@ module.exports = {
               test: /\.js$/,
               loader: 'babel-loader',
               query: {
+                  plugins: ['recharts'],
                   presets: ['es2015', 'react']
               }
           },

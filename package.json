@@ -7,7 +7,7 @@
     "update": "jest --updateSnapshot",
     "start": "eslint src && webpack-dev-server --hot --progress --colors",
     "build": "eslint src && webpack",
-    "test": "eslint src && jest",
+    "test": "eslint src && jest --updateSnapshot",
     "testDebug": "node --inspect-brk node_modules/.bin/jest --runInBand"
   },
   "author": "Sam Fare",
