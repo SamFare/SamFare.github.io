@@ -1,6 +1,9 @@
 .header {
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
     font-family: "Courier New", Courier, monospace;
-    text-decoration: underline
+    text-decoration: underline;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    
 }

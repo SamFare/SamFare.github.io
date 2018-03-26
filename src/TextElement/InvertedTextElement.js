@@ -11,7 +11,7 @@ export default class InvertedTextElement extends TextElement{
           {this.props.text}
         </div>   
         <div className={css.subElement}>
-          <img src={this.props.img}  height="100" width="100"/>
+          <img className={css.experenceImg} src={this.props.img}  height="100" width="100"/>
         </div> 
       </div>
     );

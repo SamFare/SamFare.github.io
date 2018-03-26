@@ -8,9 +8,9 @@ export default class Heading extends React.Component{
     super(props)
   }
 
-  static get PropTypes() {
+  static get propTypes() {
     return {
-      text: PropTypes.text
+      text: PropTypes.string
     };
   }
   render(){

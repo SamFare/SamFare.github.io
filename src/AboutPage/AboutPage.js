@@ -3,6 +3,7 @@ import React from "react";
 import PhotoHeader from "../PhotoHeader/PhotoHeader.js";
 import ListOfTextElement from "../ListOfTextElement/ListOfTextElement.js";
 import BarChartElement from "../BarChartElement/BarChartElement.js";
+import Paragraph from "../Paragraph/Paragraph.js";
 import Heading from "../Heading/Heading.js";
 
 import data from "../../data/career-data.json";
@@ -25,6 +26,8 @@ export default class AboutPage extends React.Component{
     return (
       <div>
         <PhotoHeader />
+        <Heading text="About"/>
+        <Paragraph />
         <Heading text="Experence"/>
         <ListOfTextElement elements={data.data} />
         <Heading text="Skills"/>
