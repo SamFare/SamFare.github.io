@@ -24,10 +24,10 @@ export default class AboutPage extends React.Component{
   render(){
     return (
       <div>
-        <PhotoHeader text={"About"}/>
-        <Heading />
+        <PhotoHeader />
+        <Heading text="Experence"/>
         <ListOfTextElement elements={data.data} />
-        <Heading />
+        <Heading text="Skills"/>
         <BarChartElement data={this.SkillData}/>
       </div>
     );
