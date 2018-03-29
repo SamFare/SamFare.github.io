@@ -6,35 +6,24 @@ import BarChartElement from "../BarChartElement/BarChartElement.js";
 import Paragraph from "../Paragraph/Paragraph.js";
 import Subheading from "../Subheading/Subheading.js";
 
-import data from "../../data/career-data.json";
-
-
+import careerData from "../../data/career-data.json";
+import activityData from "../../data/activity-data.json";
+import SkillData from "../../data/skill-data.json";
+import aboutData from "../../data/about-data.json"
 
 export default class AboutPage extends React.Component{
-  constructor() {
-    super();
-
-    this.SkillData = [
-      {skill: "ES6", skillIQ: 137},
-      {skill: "c#", skillIQ: 95},
-      {skill: "React", skillIQ: 200},
-      {skill: "CSS", skillIQ: 150}
-    ];
-  }
-  
   render(){
     return (
       <div>
         <PhotoHeader />
         <Subheading text="About"/>
-        <Paragraph />
+        <Paragraph text={aboutData.data}/>
         <Subheading text="What I'm up too"/>
-        <ListOfTextElement elements={data.data} />
+        <ListOfTextElement elements={careerData.data} />
         <Subheading text="Experence"/>
-        <ListOfTextElement elements={data.data} />
+        <ListOfTextElement elements={activityData.data} />
         <Subheading text="Skills"/>
-        <BarChartElement data={this.SkillData}/>
-        
+        <BarChartElement data={SkillData.data}/>
       </div>
     );
   }
