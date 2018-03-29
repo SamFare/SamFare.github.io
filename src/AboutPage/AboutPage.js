@@ -28,10 +28,13 @@ export default class AboutPage extends React.Component{
         <PhotoHeader />
         <Heading text="About"/>
         <Paragraph />
+        <Heading text="What I'm up too"/>
+        <ListOfTextElement elements={data.data} />
         <Heading text="Experence"/>
         <ListOfTextElement elements={data.data} />
         <Heading text="Skills"/>
         <BarChartElement data={this.SkillData}/>
+        
       </div>
     );
   }

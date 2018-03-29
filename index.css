@@ -1,3 +1,7 @@
+header { 
+    background:#fcfcfc; 
+}
 body section {
     font-family: "Courier New", Courier, monospace;  
+    background:#fcfcfc;
 }
