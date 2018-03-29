@@ -9,6 +9,7 @@ exports[`there are three elements  matches the snapshot 1`] = `
       className={undefined}
     >
       <img
+        className={undefined}
         height="100"
         src="test.png"
         width="100"
@@ -32,6 +33,7 @@ exports[`there are three elements  matches the snapshot 1`] = `
       className={undefined}
     >
       <img
+        className={undefined}
         height="100"
         src="test2.png"
         width="100"
@@ -45,6 +47,7 @@ exports[`there are three elements  matches the snapshot 1`] = `
       className={undefined}
     >
       <img
+        className={undefined}
         height="100"
         src="test3.png"
         width="100"

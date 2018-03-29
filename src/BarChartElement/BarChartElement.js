@@ -27,8 +27,8 @@ export default class BarChartElement extends React.Component{
           <XAxis dataKey="skillIQ" type="number" />
           <YAxis interval={0} dataKey="skill" type="category" />
           <Tooltip />
-          <Legend />
-          <Bar dataKey="skillIQ" fill="#8884d8" />
+          <Legend payload={[{ value: "Pluralsight Skill IQ",  type: "line", id: "skillIQ" }]} />
+          <Bar dataKey="skillIQ" fill="#afc8d6" />
         </BarChart>
       </div>
     );

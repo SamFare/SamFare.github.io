@@ -603,15 +603,19 @@ exports[`a bar chart element it has the image that was passed in 1`] = `
           >
             <path
               className="recharts-legend-icon"
-              d="M0,4h32v24h-32z"
-              fill="#8884d8"
-              stroke="none"
+              d="M0,16h10.666666666666666
+            A5.333333333333333,5.333333333333333,0,1,1,21.333333333333332,16
+            H32M21.333333333333332,16
+            A5.333333333333333,5.333333333333333,0,1,1,10.666666666666666,16"
+              fill="none"
+              stroke={undefined}
+              strokeWidth={4}
             />
           </svg>
           <span
             className="recharts-legend-item-text"
           >
-            skillIQ
+            Pluralsight Skill IQ
           </span>
         </li>
       </ul>

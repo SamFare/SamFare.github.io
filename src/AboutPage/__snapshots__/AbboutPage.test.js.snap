@@ -10,13 +10,29 @@ exports[`an about page= it has the image that was passed in 1`] = `
     />
     <div
       className={undefined}
-    >
-      About
-    </div>
+    />
   </div>
-  <div>
+  <div
+    className={undefined}
+  >
     <p>
-       test 
+       
+      About
+       
+    </p>
+  </div>
+  <div
+    className={undefined}
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+  </div>
+  <div
+    className={undefined}
+  >
+    <p>
+       
+      What I'm up too
+       
     </p>
   </div>
   <div>
@@ -27,6 +43,7 @@ exports[`an about page= it has the image that was passed in 1`] = `
         className={undefined}
       >
         <img
+          className={undefined}
           height="100"
           src="../../assets/about-page-pic.jpg"
           width="100"
@@ -50,6 +67,7 @@ exports[`an about page= it has the image that was passed in 1`] = `
         className={undefined}
       >
         <img
+          className={undefined}
           height="100"
           src="../../assets/about-page-pic.jpg"
           width="100"
@@ -63,6 +81,7 @@ exports[`an about page= it has the image that was passed in 1`] = `
         className={undefined}
       >
         <img
+          className={undefined}
           height="100"
           src="../../assets/about-page-pic.jpg"
           width="100"
@@ -75,9 +94,81 @@ exports[`an about page= it has the image that was passed in 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    className={undefined}
+  >
     <p>
-       test 
+       
+      Experence
+       
+    </p>
+  </div>
+  <div>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+      >
+        <img
+          className={undefined}
+          height="100"
+          src="../../assets/about-page-pic.jpg"
+          width="100"
+        />
+      </div>
+      <div
+        className={undefined}
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+      </div>
+    </div>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+      </div>
+      <div
+        className={undefined}
+      >
+        <img
+          className={undefined}
+          height="100"
+          src="../../assets/about-page-pic.jpg"
+          width="100"
+        />
+      </div>
+    </div>
+    <div
+      className={undefined}
+    >
+      <div
+        className={undefined}
+      >
+        <img
+          className={undefined}
+          height="100"
+          src="../../assets/about-page-pic.jpg"
+          width="100"
+        />
+      </div>
+      <div
+        className={undefined}
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+      </div>
+    </div>
+  </div>
+  <div
+    className={undefined}
+  >
+    <p>
+       
+      Skills
+       
     </p>
   </div>
   <div
@@ -682,15 +773,19 @@ exports[`an about page= it has the image that was passed in 1`] = `
             >
               <path
                 className="recharts-legend-icon"
-                d="M0,4h32v24h-32z"
-                fill="#8884d8"
-                stroke="none"
+                d="M0,16h10.666666666666666
+            A5.333333333333333,5.333333333333333,0,1,1,21.333333333333332,16
+            H32M21.333333333333332,16
+            A5.333333333333333,5.333333333333333,0,1,1,10.666666666666666,16"
+                fill="none"
+                stroke={undefined}
+                strokeWidth={4}
               />
             </svg>
             <span
               className="recharts-legend-item-text"
             >
-              skillIQ
+              Pluralsight Skill IQ
             </span>
           </li>
         </ul>

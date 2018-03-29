@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import css from "./Heading.css"
+import css from "./Subheading.css";
 
-export default class Heading extends React.Component{
+export default class Subheading extends React.Component{
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   static get propTypes() {
