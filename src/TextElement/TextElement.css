@@ -1,7 +1,18 @@
-.textElement {
+.textElement, .textHeading, .textHeadingInverted {
     display: inline-block;
     display: flex;
     margin: 20px;
+}
+
+.textHeading, .textHeadingInverted {
+    text-decoration: underline;
+    font-size: 18pt;
+}
+
+.textHeadingInverted { 
+    text-align: right;
+    display: block;
+    padding-right: 20px;
 }
 
 .subElement {
@@ -13,5 +24,4 @@
 .experenceImg {
     border-radius: 50%;
     border: 5px;
- 
 }

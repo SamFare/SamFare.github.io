@@ -13,6 +13,7 @@ export default class TextElement extends React.Component{
   static get propTypes() { 
     return {
       text: PropTypes.string,
+      title: PropTypes.string,
       img: PropTypes.string
     };
   }
@@ -23,9 +24,12 @@ export default class TextElement extends React.Component{
         <div className={css.subElement}>
           <img className={css.experenceImg} src={this.props.img}  height="100" width="100"/>
         </div>
-        <div className={css.textElement}>
-          {this.props.text}
-        </div>  
+        <div> 
+          <div className={css.textHeading}> {this.props.title} </div> 
+          <div className={css.textElement}>
+            {this.props.text}
+          </div> 
+        </div> 
       </div>
     );
   }

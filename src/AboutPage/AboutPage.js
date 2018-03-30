@@ -19,9 +19,9 @@ export default class AboutPage extends React.Component{
         <Subheading text="About"/>
         <Paragraph text={aboutData.data}/>
         <Subheading text="What I'm up too"/>
-        <ListOfTextElement elements={careerData.data} />
-        <Subheading text="Experence"/>
         <ListOfTextElement elements={activityData.data} />
+        <Subheading text="Experence"/>
+        <ListOfTextElement elements={careerData.data} />
         <Subheading text="Skills"/>
         <BarChartElement data={SkillData.data}/>
       </div>
