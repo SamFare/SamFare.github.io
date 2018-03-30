@@ -9,7 +9,7 @@ import Subheading from "../Subheading/Subheading.js";
 import careerData from "../../data/career-data.json";
 import activityData from "../../data/activity-data.json";
 import SkillData from "../../data/skill-data.json";
-import aboutData from "../../data/about-data.json"
+import aboutData from "../../data/about-data.json";
 
 export default class AboutPage extends React.Component{
   render(){
