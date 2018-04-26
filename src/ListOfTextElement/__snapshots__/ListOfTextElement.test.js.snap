@@ -15,19 +15,35 @@ exports[`there are three elements  matches the snapshot 1`] = `
         width="100"
       />
     </div>
-    <div
-      className={undefined}
-    >
-      this is text
+    <div>
+      <div
+        className={undefined}
+      >
+         
+         
+      </div>
+      <div
+        className={undefined}
+      >
+        this is text
+      </div>
     </div>
   </div>
   <div
     className={undefined}
   >
-    <div
-      className={undefined}
-    >
-      this is text
+    <div>
+      <div
+        className={undefined}
+      >
+         
+         
+      </div>
+      <div
+        className={undefined}
+      >
+        this is text
+      </div>
     </div>
     <div
       className={undefined}
@@ -53,10 +69,18 @@ exports[`there are three elements  matches the snapshot 1`] = `
         width="100"
       />
     </div>
-    <div
-      className={undefined}
-    >
-      this is text
+    <div>
+      <div
+        className={undefined}
+      >
+         
+         
+      </div>
+      <div
+        className={undefined}
+      >
+        this is text
+      </div>
     </div>
   </div>
 </div>

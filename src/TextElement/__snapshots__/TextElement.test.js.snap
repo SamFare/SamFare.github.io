@@ -14,10 +14,18 @@ exports[`A text element it has the image that was passed in 1`] = `
       width="100"
     />
   </div>
-  <div
-    className={undefined}
-  >
-    text
+  <div>
+    <div
+      className={undefined}
+    >
+       
+       
+    </div>
+    <div
+      className={undefined}
+    >
+      text
+    </div>
   </div>
 </div>
 `;

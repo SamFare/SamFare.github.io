@@ -1,7 +1,14 @@
-.textElement, .textHeading, .textHeadingInverted {
+div .textElementInverted {
+    width: fit-content;
+    float: right;
+}
+
+.textElement, .textHeading, .textHeadingInverted, .textElementInverted {
     display: inline-block;
     display: flex;
     margin: 20px;
+    white-space:pre-wrap;
+    width:100%;
 }
 
 .textHeading, .textHeadingInverted {
@@ -10,8 +17,6 @@
 }
 
 .textHeadingInverted { 
-    text-align: right;
-    display: block;
     padding-right: 20px;
 }
 

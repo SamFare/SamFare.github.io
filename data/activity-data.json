@@ -1,19 +1,14 @@
 {
     "data": [
         {
-            "img": "../../assets/compare-the-market-pounds.png",
-            "title": "title",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus"
+            "img": "../../assets/meta.png",
+            "title": "Speaking at META conf",
+            "text": "Location: peterborough\r\nDate: 10/05/2018\r\n I have the luck to present \"I did mob programming every day for 5 months, Here’s what I learnt\" at Meta - the BGL groups internal confrence on the 10th of may. The talk is based on my article of the same name (avaliable here: https://goo.gl/wLXAHH). The article is the most read on the Compare the market blog with 28,000 views."
         },
         {
-            "img": "../../assets/about-page-pic.jpg",
-            "title": "title",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus"
-        },
-        {
-            "img": "../../assets/about-page-pic.jpg",
-            "title": "title",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus"
+            "img": "../../assets/codebar.png",
+            "title": "Coach at Codebar London",
+            "text": "Location: London\r\nDate: 27/03/2018\r\n CodeBar is a event aimed at helping beginner programmers develop the skills they need to suceed. During the event I acted as a coach teaching React. you can find out more information on codebar here: https://codebar.io/"
         }
     ]
 }

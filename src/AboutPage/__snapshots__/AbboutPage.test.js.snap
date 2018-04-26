@@ -24,7 +24,11 @@ exports[`an about page= it has the image that was passed in 1`] = `
   <div
     className={undefined}
   >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+    I’ve been a programmer for 4 years now. Over that time I’ve had the chance to work at some great companies Including CompareTheMarket.com (current) and Philips.
+
+ As a developer I challenge myself and learn new things. At university my passion for learning allowed me to achieve a First, But after university I’ve worked hard to keep learning and developing.
+
+As well as learning for myself I’m keen to feed back and share what I have learned with others. I have a blog on medium which has CompareTheMarket.com’s most read article . And recently taught React at a Codebar event in london.
   </div>
   <div
     className={undefined}
@@ -45,23 +49,41 @@ exports[`an about page= it has the image that was passed in 1`] = `
         <img
           className={undefined}
           height="100"
-          src="../../assets/about-page-pic.jpg"
+          src="../../assets/compare-the-market-pounds.png"
           width="100"
         />
       </div>
-      <div
-        className={undefined}
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+      <div>
+        <div
+          className={undefined}
+        >
+           
+          title
+           
+        </div>
+        <div
+          className={undefined}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+        </div>
       </div>
     </div>
     <div
       className={undefined}
     >
-      <div
-        className={undefined}
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+      <div>
+        <div
+          className={undefined}
+        >
+           
+          title
+           
+        </div>
+        <div
+          className={undefined}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+        </div>
       </div>
       <div
         className={undefined}
@@ -87,10 +109,19 @@ exports[`an about page= it has the image that was passed in 1`] = `
           width="100"
         />
       </div>
-      <div
-        className={undefined}
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+      <div>
+        <div
+          className={undefined}
+        >
+           
+          title
+           
+        </div>
+        <div
+          className={undefined}
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+        </div>
       </div>
     </div>
   </div>
@@ -113,14 +144,59 @@ exports[`an about page= it has the image that was passed in 1`] = `
         <img
           className={undefined}
           height="100"
-          src="../../assets/about-page-pic.jpg"
+          src="../../assets/compare-the-market-pounds.png"
           width="100"
         />
+      </div>
+      <div>
+        <div
+          className={undefined}
+        >
+           
+          CompareTheMarket.com
+           
+        </div>
+        <div
+          className={undefined}
+        >
+          Key Tech: Javascript, AngularJS, C#
+
+Key Achievements
+• 
+        </div>
+      </div>
+    </div>
+    <div
+      className={undefined}
+    >
+      <div>
+        <div
+          className={undefined}
+        >
+           
+          General Electric
+           
+        </div>
+        <div
+          className={undefined}
+        >
+          Key Tech Used: Javascript, AngularJS, Java
+
+Key Achievements:
+• Enhanced JavaScript knowledge by working on an Angular 2 dashboard displaying results for code coverage.
+
+• Applied Java knowledge by developing for the Smallworld product portfolio.
+        </div>
       </div>
       <div
         className={undefined}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+        <img
+          className={undefined}
+          height="100"
+          src="../../assets/GE-logo.png"
+          width="100"
+        />
       </div>
     </div>
     <div
@@ -129,36 +205,30 @@ exports[`an about page= it has the image that was passed in 1`] = `
       <div
         className={undefined}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
-      </div>
-      <div
-        className={undefined}
-      >
         <img
           className={undefined}
           height="100"
-          src="../../assets/about-page-pic.jpg"
+          src="../../assets/philips-logo.png"
           width="100"
         />
       </div>
-    </div>
-    <div
-      className={undefined}
-    >
-      <div
-        className={undefined}
-      >
-        <img
+      <div>
+        <div
           className={undefined}
-          height="100"
-          src="../../assets/about-page-pic.jpg"
-          width="100"
-        />
-      </div>
-      <div
-        className={undefined}
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus
+        >
+           
+          Philips Electronics
+           
+        </div>
+        <div
+          className={undefined}
+        >
+          Key Tech: Javascript, AngularJS,Ruby,Java C#
+
+Key Achievements
+• Worked alongside researchers implementing and refining software designed to be used in scientific trials.
+• Enhanced my communication skills by working alongside teams from different parts of the world.
+        </div>
       </div>
     </div>
   </div>

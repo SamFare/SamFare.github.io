@@ -1,10 +1,10 @@
 .photoHeader {
     width: 100%;
-    height: 400px;
-    overflow: hidden;
+    height: auto;
     position: relative;
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 .bottomRight {
@@ -13,4 +13,9 @@
     right: 16px;
     font-size: 150px;
     padding: 0;
+}
+
+.photo {
+    max-width: 100%;
+    max-height: 100%
 }

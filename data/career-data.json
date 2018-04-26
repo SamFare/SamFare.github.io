@@ -3,17 +3,17 @@
         {
             "img": "../../assets/compare-the-market-pounds.png",
             "title": "CompareTheMarket.com",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus"
+            "text": "Key Tech: Javascript (ES6), AngularJS, C#<\r\n\r\nAt comparethemarket I have worked hard to enhance my Javascript skills while working on a ES6 UI for a application that supports the interaction between CTM and our panel of providers. Comparethemarket has also given me the opportunity to experience new techniques such as pair and mob programming.\r\n\r\nI also worked on a c# 7 based project that integrates the quotes that are received from providers into the main site. This project has allowed me to deep dive into the workings of .NET including a deep look at .Net Memory management for Fixing a memory leak. "
         },
         {
             "img": "../../assets/GE-logo.png",
             "title": "General Electric",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus"
+            "text": "Key Tech: Javascript (ES6), AngularJS, Magik\r\n\r\nAt GE I demonstrated my leadership and communication ability by becoming the team leader for the companies first aiders. This involved coordinating first aiders to cover events (like the company first aid tournament) and organising the rotors to check our defibrillators and first aid kits.\r\n\r\nI also demonstrated my ability to pick up things quickly by working on the Smallworld product portfolio in a GE language called magik. The smallworld portfolio helps large utility companies look after their assets. \r\n\r\nI Also had the opportunity to work on an ES6 dashboard for reporting of our Code coverage statistics. This dashboards was used by every team on site to report up."
         },
         {
             "img": "../../assets/philips-logo.png",
             "title": "Philips Electronics",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nec neque quis finibus. Morbi egestas odio eget porttitor accumsan. Curabitur at purus at elit vestibulum sodales. Nam dignissim, arcu eget venenatis scelerisque, libero diam commodo sem, maximus convallis risus tortor et tortor. Integer sit amet enim sit amet urna elementum pellentesque. Fusce placerat nisl ac justo sagittis posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut id metus orci. Ut eget est eleifend, bibendum leo quis, vehicula lacus. Vestibulum feugiat et augue eu tempus"
+            "text": "Key Tech: Javascript, ruby\r\n\r\nAt philips I worked on a project monitoring ICU patients and passing the data on to doctors working remotely. This my area of this project was written in Javascript/Angular.r\n\r\nAt philips I had the opportunity to work internationally, regularly visiting our offices in Eindhoven and Aachen. This improved my communication and interpersonal skills."
         }
     ]
 }
