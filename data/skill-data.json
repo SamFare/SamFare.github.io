@@ -1,0 +1,8 @@
+{
+    "data": [
+    {"skill": "ES6", "skillIQ": 137},
+    {"skill": "c#", "skillIQ": 95},
+    {"skill": "React", "skillIQ": 200},
+    {"skill": "CSS", "skillIQ": 150}
+    ]
+}
