@@ -1,12 +1,12 @@
 {
     "data": [
         {
-            "img": "../../assets/meta.png",
+            "img": "assets/meta.png",
             "title": "Speaking at META conf",
             "text": "Location: peterborough\r\nDate: 10/05/2018\r\n\r\nI have the luck to present \"I did mob programming every day for 5 months, Here’s what I learnt\" at Meta - the BGL groups internal confrence on the 10th of may. The talk is based on my article of the same name (avaliable here: https://goo.gl/wLXAHH). The article is the most read on the Compare the market blog with 28,000 views."
         },
         {
-            "img": "../../assets/codebar.png",
+            "img": "assets/codebar.png",
             "title": "Coach at Codebar London",
             "text": "Location: London\r\nDate: 27/03/2018\r\n\r\nCodeBar is a event aimed at helping beginner programmers develop the skills they need to suceed. During the event I acted as a coach teaching React. you can find out more information on codebar here: https://codebar.io/"
         }
