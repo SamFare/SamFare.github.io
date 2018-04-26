@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Website detailing the carreer history of Sam Fare",
   "main": "index.js",
-  "homepage": "http://samfare.github.io/website",
+  "homepage": "https://samfare.github.io/website",
   "scripts": {
     "update": "jest --updateSnapshot",
     "start": "eslint src && webpack-dev-server --hot --progress --colors",
