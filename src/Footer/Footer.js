@@ -9,10 +9,10 @@ export default class Footer extends React.Component {
         <div> Dont forget to follow me:</div>
         <div>
           <a href="https://github.com/SamFare">
-            <img className={css.footerImgLink} src="../assets/GitHub-Mark-64px.png"/>
+            <img className={css.footerImgLink} src="assets/GitHub-Mark-64px.png"/>
           </a>
           <a href="https://medium.com/@samuel.fare">
-            <img className={css.footerImgLink} src="../assets/Monogram.png"/>
+            <img className={css.footerImgLink} src="assets/Monogram.png"/>
           </a>
         </div>
         <div>Copyright &copy; Samuel Fare</div>       

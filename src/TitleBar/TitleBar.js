@@ -13,10 +13,10 @@ export default class TitleBar extends React.Component{
         </Navbar.Header>
         <Nav>
           <NavItem href="https://github.com/SamFare">
-            <img className={css.logoButton} src="../assets/GitHub-Mark-64px.png"/>
+            <img className={css.logoButton} src="assets/GitHub-Mark-64px.png"/>
           </NavItem>
           <NavItem href="https://medium.com/@samuel.fare">
-            <img className={css.logoButton} src="../assets/Monogram.png"/>
+            <img className={css.logoButton} src="assets/Monogram.png"/>
           </NavItem>
         </Nav>
       </Navbar>
