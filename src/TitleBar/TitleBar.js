@@ -19,7 +19,7 @@ export default class TitleBar extends React.Component{
             <img className={css.logoButton} src="assets/Monogram.png"/>
           </NavItem>
           <NavItem href="https://goo.gl/XZZpxH">
-            <img className={css.logoButton} src="assets/in-black-66px-R.png"/>
+            <img className={css.logoButton} src="assets/In-Black-66px-R.png"/>
           </NavItem>
         </Nav>
       </Navbar>
