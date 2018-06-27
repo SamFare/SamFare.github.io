@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`an about page= it has the image that was passed in 1`] = `
+<div>
+  <div
+    className={undefined}
+  >
+    <img
+      className={undefined}
+      src="assets/about-page-pic.jpg"
+    />
+    <div
+      className={undefined}
+    />
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      <p>
+         
+        About
+         
+      </p>
+    </div>
+    <div
+      className={undefined}
+    >
+      I’ve been a programmer for 4 years now. Over that time, I’ve had the chance to work at some great companies including CompareTheMarket.com (current) and Philips. As a developer, I’m constantly challenging myself to learn new things. At university, my passion for learning allowed me to achieve a First, but after university, I’ve worked hard to keep learning and developing. As well as learning for myself I’m keen to feedback and share what I have learned with others. I have a blog on Medium which has CompareTheMarket.com’s most read article, and recently taught React at a ‘CodeBar’ event in London.
+    </div>
+    <div
+      className={undefined}
+    >
+      <p>
+         
+        What I'm up too
+         
+      </p>
+    </div>
+    <div>
+      <div
+        className={undefined}
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            className={undefined}
+            height="100"
+            src="assets/meta.png"
+            width="100"
+          />
+        </div>
+        <div>
+          <div
+            className={undefined}
+          >
+             
+            Speaking at META conf
+             
+          </div>
+          <div
+            className={undefined}
+          >
+            Location: peterborough
+Date: 10/05/2018
+
+I converted my most successful medium article “I did mob programming every day for 5 months, here’s what I learnt” in to a talk at the BGL Groups all-company conference META.
+          </div>
+        </div>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div>
+          <div
+            className={undefined}
+          >
+             
+            Coach at Codebar London
+             
+          </div>
+          <div
+            className={undefined}
+          >
+            Location: London
+Date: 27/03/2018
+
+CodeBar is a event aimed at helping beginner programmers develop the skills they need to suceed. During the event I acted as a coach teaching React. you can find out more information on codebar here: https://codebar.io/
+          </div>
+        </div>
+        <div
+          className={undefined}
+        >
+          <img
+            className={undefined}
+            height="100"
+            src="assets/codebar.png"
+            width="100"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className={undefined}
+    >
+      <p>
+         
+        Experience
+         
+      </p>
+    </div>
+    <div>
+      <div
+        className={undefined}
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            className={undefined}
+            height="100"
+            src="assets/compare-the-market-pounds.png"
+            width="100"
+          />
+        </div>
+        <div>
+          <div
+            className={undefined}
+          >
+             
+            CompareTheMarket.com
+             
+          </div>
+          <div
+            className={undefined}
+          >
+            Key Tech: Javascript (ES6), AngularJS, C#&lt;
+
+At comparethemarket.com I have worked hard to enhance my JavaScript skills while working on an ES6 UI for an application that supports the interaction between CTM and our panel of providers.
+
+Comparethemarket.com has also given me the opportunity to experience new techniques such as pair and mob programming. 
+
+I also worked on a C# 7 based project that integrates the quotes that are received from providers into the main site. This project has allowed me to deep dive into the workings of .NET including a deep look at.Net memory management for fixing a memory leak.
+          </div>
+        </div>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div>
+          <div
+            className={undefined}
+          >
+             
+            General Electric
+             
+          </div>
+          <div
+            className={undefined}
+          >
+            Key Tech: Javascript (ES6), AngularJS, Magik
+
+At GE I demonstrated my leadership and communication ability by becoming the team leader for the company’s first aiders. This involved coordinating first aiders to cover events (like the company first aid tournament) and organising the rotors to check our defibrillators and first aid kits. 
+
+I also demonstrated my ability to pick up things quickly by working on the Smallworld product portfolio in a GE language called Magik. The Smallworld portfolio helps large utility companies look after their assets.
+
+I also had the opportunity to work on an ES6 dashboard for reporting of our code coverage statistics. This dashboard was used by every team on site to report up.
+          </div>
+        </div>
+        <div
+          className={undefined}
+        >
+          <img
+            className={undefined}
+            height="100"
+            src="assets/GE-logo.png"
+            width="100"
+          />
+        </div>
+      </div>
+      <div
+        className={undefined}
+      >
+        <div
+          className={undefined}
+        >
+          <img
+            className={undefined}
+            height="100"
+            src="assets/philips-logo.png"
+            width="100"
+          />
+        </div>
+        <div>
+          <div
+            className={undefined}
+          >
+             
+            Philips Electronics
+             
+          </div>
+          <div
+            className={undefined}
+          >
+            Key Tech: Javascript, ruby
+
+At philips I worked on a project monitoring ICU patients and passing the data on to doctors working remotely. This my area of this project was written in Javascript/Angular.
+
+At philips I had the opportunity to work internationally, regularly visiting our offices in Eindhoven and Aachen. This improved my communication and interpersonal skills.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

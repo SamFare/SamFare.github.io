@@ -1,0 +1,31 @@
+div div .TitleBarText {
+  font-size: 40pt;
+  font-family: "Courier New", Courier, monospace;
+  opacity: 1.0;
+  margin-right: 20%;
+}
+
+section div .TitleBarLayout {
+  z-index: 1000;
+  width: 100%;
+  display:inline-block;
+  float: none;
+  margin-bottom: 0 !important;
+  border-width: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px;
+  background-color: rgba(0,0,0,0.0);
+  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.logoButton {
+  height:32px;
+  margin-top: 20%;
+  padding: 0;
+}
