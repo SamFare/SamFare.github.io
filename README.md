@@ -1,7 +1,7 @@
 # Website template
 
 ### Description
-This is the repositry for the template used on my website [SamFare.me](SamFare.me "Click for website goodness"). Feel free to chack it out.
+This is the repositry for the template used on my website [SamFare.me](SamFare.me "Click for website goodness"). Check it out.
 
 
 ### Use
