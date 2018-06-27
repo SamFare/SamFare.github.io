@@ -9,6 +9,7 @@
     "start": "eslint src && webpack-dev-server --hot --progress --colors",
     "build": "eslint src && webpack",
     "test": "eslint src && jest --updateSnapshot",
+    "test-update": "eslint src && jest --updateSnapshot",
     "testDebug": "node --inspect-brk node_modules/.bin/jest --runInBand",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"

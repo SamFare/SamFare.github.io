@@ -28,11 +28,7 @@ exports[`an about page= it has the image that was passed in 1`] = `
     <div
       className={undefined}
     >
-      I’ve been a programmer for 4 years now. Over that time I’ve had the chance to work at some great companies Including CompareTheMarket.com (current) and Philips.
-
- As a developer I challenge myself and learn new things. At university my passion for learning allowed me to achieve a First, But after university I’ve worked hard to keep learning and developing.
-
-As well as learning for myself I’m keen to feed back and share what I have learned with others. I have a blog on medium which has CompareTheMarket.com’s most read article . And recently taught React at a Codebar event in london.
+      I’ve been a programmer for 4 years now. Over that time, I’ve had the chance to work at some great companies including CompareTheMarket.com (current) and Philips. As a developer, I’m constantly challenging myself to learn new things. At university, my passion for learning allowed me to achieve a First, but after university, I’ve worked hard to keep learning and developing. As well as learning for myself I’m keen to feedback and share what I have learned with others. I have a blog on Medium which has CompareTheMarket.com’s most read article, and recently taught React at a ‘CodeBar’ event in London.
     </div>
     <div
       className={undefined}
@@ -71,7 +67,7 @@ As well as learning for myself I’m keen to feed back and share what I have lea
             Location: peterborough
 Date: 10/05/2018
 
-I have the luck to present "I did mob programming every day for 5 months, Here’s what I learnt" at Meta - the BGL groups internal confrence on the 10th of may. The talk is based on my article of the same name (avaliable here: https://goo.gl/wLXAHH). The article is the most read on the Compare the market blog with 28,000 views.
+I converted my most successful medium article “I did mob programming every day for 5 months, here’s what I learnt” in to a talk at the BGL Groups all-company conference META.
           </div>
         </div>
       </div>
@@ -143,9 +139,11 @@ CodeBar is a event aimed at helping beginner programmers develop the skills they
           >
             Key Tech: Javascript (ES6), AngularJS, C#&lt;
 
-At comparethemarket I have worked hard to enhance my Javascript skills while working on a ES6 UI for a application that supports the interaction between CTM and our panel of providers. Comparethemarket has also given me the opportunity to experience new techniques such as pair and mob programming.
+At comparethemarket.com I have worked hard to enhance my JavaScript skills while working on an ES6 UI for an application that supports the interaction between CTM and our panel of providers.
 
-I also worked on a c# 7 based project that integrates the quotes that are received from providers into the main site. This project has allowed me to deep dive into the workings of .NET including a deep look at .Net Memory management for Fixing a memory leak. 
+Comparethemarket.com has also given me the opportunity to experience new techniques such as pair and mob programming. 
+
+I also worked on a C# 7 based project that integrates the quotes that are received from providers into the main site. This project has allowed me to deep dive into the workings of .NET including a deep look at.Net memory management for fixing a memory leak.
           </div>
         </div>
       </div>
@@ -165,11 +163,11 @@ I also worked on a c# 7 based project that integrates the quotes that are receiv
           >
             Key Tech: Javascript (ES6), AngularJS, Magik
 
-At GE I demonstrated my leadership and communication ability by becoming the team leader for the companies first aiders. This involved coordinating first aiders to cover events (like the company first aid tournament) and organising the rotors to check our defibrillators and first aid kits.
+At GE I demonstrated my leadership and communication ability by becoming the team leader for the company’s first aiders. This involved coordinating first aiders to cover events (like the company first aid tournament) and organising the rotors to check our defibrillators and first aid kits. 
 
-I also demonstrated my ability to pick up things quickly by working on the Smallworld product portfolio in a GE language called magik. The smallworld portfolio helps large utility companies look after their assets. 
+I also demonstrated my ability to pick up things quickly by working on the Smallworld product portfolio in a GE language called Magik. The Smallworld portfolio helps large utility companies look after their assets.
 
-I Also had the opportunity to work on an ES6 dashboard for reporting of our Code coverage statistics. This dashboards was used by every team on site to report up.
+I also had the opportunity to work on an ES6 dashboard for reporting of our code coverage statistics. This dashboard was used by every team on site to report up.
           </div>
         </div>
         <div
@@ -209,7 +207,7 @@ I Also had the opportunity to work on an ES6 dashboard for reporting of our Code
           >
             Key Tech: Javascript, ruby
 
-At philips I worked on a project monitoring ICU patients and passing the data on to doctors working remotely. This my area of this project was written in Javascript/Angular.r
+At philips I worked on a project monitoring ICU patients and passing the data on to doctors working remotely. This my area of this project was written in Javascript/Angular.
 
 At philips I had the opportunity to work internationally, regularly visiting our offices in Eindhoven and Aachen. This improved my communication and interpersonal skills.
           </div>

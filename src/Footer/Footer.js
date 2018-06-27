@@ -14,6 +14,9 @@ export default class Footer extends React.Component {
           <a href="https://medium.com/@samuel.fare">
             <img className={css.footerImgLink} src="assets/Monogram.png"/>
           </a>
+          <a href="https://goo.gl/XZZpxH">
+            <img className={css.footerImgLink} src="assets/in-black-66px-R.png"/>
+          </a>
         </div>
         <div>Copyright &copy; Samuel Fare</div>       
       </div>
