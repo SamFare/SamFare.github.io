@@ -12,11 +12,17 @@
     "test-update": "eslint src && jest --updateSnapshot",
     "testDebug": "node --inspect-brk node_modules/.bin/jest --runInBand",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Sam Fare",
   "license": "MIT",
   "devDependencies": {
+    "@storybook/addon-actions": "^4.1.11",
+    "@storybook/addon-links": "^4.1.11",
+    "@storybook/addons": "^4.1.11",
+    "@storybook/react": "^4.1.11",
     "babel-core": "^6.26.0",
     "babel-jest": "^22.4.1",
     "babel-loader": "^7.1.4",
@@ -46,7 +52,7 @@
     "recharts": "^1.0.0-beta.10",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
-    "webpack": "^3.11.0",
+    "webpack": "^4.29.0",
     "webpack-dev-server": "^2.11.2"
   },
   "dependencies": {
