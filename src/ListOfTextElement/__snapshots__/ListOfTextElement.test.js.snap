@@ -2,83 +2,56 @@
 
 exports[`there are three elements  matches the snapshot 1`] = `
 <div>
-  <div
-    className={undefined}
-  >
-    <div
-      className={undefined}
-    >
+  <div>
+    <div>
       <img
-        className={undefined}
         height="100"
         src="test.png"
         width="100"
       />
     </div>
     <div>
-      <div
-        className={undefined}
-      >
+      <div>
          
          
       </div>
-      <div
-        className={undefined}
-      >
+      <div>
         this is text
       </div>
     </div>
   </div>
-  <div
-    className={undefined}
-  >
+  <div>
     <div>
-      <div
-        className={undefined}
-      >
+      <div>
          
          
       </div>
-      <div
-        className={undefined}
-      >
+      <div>
         this is text
       </div>
     </div>
-    <div
-      className={undefined}
-    >
+    <div>
       <img
-        className={undefined}
         height="100"
         src="test2.png"
         width="100"
       />
     </div>
   </div>
-  <div
-    className={undefined}
-  >
-    <div
-      className={undefined}
-    >
+  <div>
+    <div>
       <img
-        className={undefined}
         height="100"
         src="test3.png"
         width="100"
       />
     </div>
     <div>
-      <div
-        className={undefined}
-      >
+      <div>
          
          
       </div>
-      <div
-        className={undefined}
-      >
+      <div>
         this is text
       </div>
     </div>

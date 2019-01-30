@@ -11,13 +11,11 @@
     "test": "eslint src && jest",
     "test-update": "eslint src && jest --updateSnapshot",
     "testDebug": "node --inspect-brk node_modules/.bin/jest --runInBand",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "author": "Sam Fare",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "babel-loader": "^8.0.5",
