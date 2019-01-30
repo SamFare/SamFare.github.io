@@ -38,7 +38,6 @@
     "eslint-plugin-react": "^7.12.4",
     "extract-text-webpack-plugin": "^3.0.2",
     "gh-pages": "^1.1.0",
-    "jQuery": "^1.7.4",
     "jest": "^24.0.0",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
@@ -52,7 +51,6 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "jquery": "^3.3.1",
     "popper.js": "^1.13.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
