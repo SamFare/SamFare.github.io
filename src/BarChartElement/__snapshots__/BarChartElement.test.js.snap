@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`a bar chart element it has the image that was passed in 1`] = `
-<div
-  className={undefined}
->
+<div>
   <div
     className="recharts-wrapper"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onMouseMove={[Function]}
+    onTouchEnd={[Function]}
     onTouchMove={[Function]}
+    onTouchStart={[Function]}
     style={
       Object {
         "cursor": "default",
@@ -22,11 +22,20 @@ exports[`a bar chart element it has the image that was passed in 1`] = `
     <svg
       className="recharts-surface"
       height={400}
-      style={undefined}
       version="1.1"
       viewBox="0 0 900 400"
       width={900}
     >
+      <clipPath
+        id="recharts2-clip"
+      >
+        <rect
+          height={360}
+          width={790}
+          x={80}
+          y={5}
+        />
+      </clipPath>
       <g
         className="recharts-cartesian-grid"
       >
@@ -608,7 +617,6 @@ exports[`a bar chart element it has the image that was passed in 1`] = `
             H32M21.333333333333332,16
             A5.333333333333333,5.333333333333333,0,1,1,10.666666666666666,16"
               fill="none"
-              stroke={undefined}
               strokeWidth={4}
             />
           </svg>
