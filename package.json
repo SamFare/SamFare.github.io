@@ -6,9 +6,9 @@
   "homepage": "https://samfare.github.io/website",
   "scripts": {
     "update": "jest --updateSnapshot",
-    "start": "eslint src && webpack-dev-server --hot --progress --colors",
+    "start": "eslint src --fix && webpack-dev-server --hot --progress --colors",
     "build": "eslint src && webpack",
-    "test": "eslint src && jest",
+    "test": "eslint src --fix && jest",
     "test-update": "eslint src && jest --updateSnapshot",
     "testDebug": "node --inspect-brk node_modules/.bin/jest --runInBand",
     "deploy": "gh-pages -d build",
@@ -49,6 +49,7 @@
     "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
+    "jest-each": "^24.0.0",
     "popper.js": "^1.13.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
@@ -58,6 +59,7 @@
   "jest": {
     "moduleNameMapper": {
       "\\.(css|less)$": "<rootDir>/mocks/styleMock.js"
-    }
+    },
+    "setupTestFrameworkScriptFile": "<rootDir>testSetup.js"
   }
 }

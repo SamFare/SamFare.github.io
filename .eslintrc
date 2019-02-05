@@ -48,7 +48,8 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-console": ["warn"]
     },
     "extends": [
         "eslint:recommended",
