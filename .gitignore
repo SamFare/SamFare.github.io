@@ -4,4 +4,3 @@ package-lock.json
 build/*
 npm-debug.log
 coverage/
-.DS_Store
