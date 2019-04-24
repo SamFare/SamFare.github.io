@@ -27,3 +27,24 @@ test("the nav options have the text specified", () => {
 });
 
 
+test("the logo is not included when it is not provided", () => { 
+  const wrapper = mount(<Nav options={[]} />);
+  const logo = wrapper.find(".qa-logo");
+  expect(logo.length).toBe(0);
+});
+
+test("the logo is not included when it is not provided", () => { 
+  const wrapper = mount(<Nav logo={"testlogo.png"} options={[]} />);
+  const logo = wrapper.find(".qa-logo");
+  expect(logo.length).toBe(1);
+});
+
+test.each`
+filePath
+${"testlogo"}
+${"test2"}
+`("the logo uses the provided image", (input) => { 
+  const wrapper = mount(<Nav logo={input.filePath} options={[]} />);
+  const logo = wrapper.find(".qa-logo");
+  expect(logo.prop("src")).toBe(input.filePath);
+});

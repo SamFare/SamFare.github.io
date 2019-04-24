@@ -1,20 +1,42 @@
 .nav {
     width: 100%; 
-    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
-    height: auto;
+    height: 75px;
     text-align: center;
     padding: 0px 0px 0px 0px;
+    float:right;
+    background-color: #ff6961;
+    
+}
+
+.menu {
+    height: inherit;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 20px 0px 0px;
 }
 
 .navButton {
-    display: inline-block;
+    display: block;
     padding: 10px 10px 10px 10px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Haettenschweiler', sans-serif;
+    font-size: 14pt;
+    border: 1px;
+    border-color: transparent;
+    border-style: solid;
+    float: right;
+    margin-top: 16px;
+    color: #555962;
+}
+
+.logo { 
+    display: block;
+    float: left;
+    height: inherit;
 }
 
 .navButton:hover {
-    background-color: rgba(40, 43, 224, 0.2);
-    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+    border-color: grey;
+    border-radius: 10px;
+    
 }
 
 @media screen and (max-width: 600) {

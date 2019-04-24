@@ -3,3 +3,5 @@ package-lock.json
 .DS_Store
 build/*
 npm-debug.log
+coverage/
+.DS_Store
