@@ -1,14 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import TitleBar from "../TitleBar/titleBar.js";
+import Nav from "../Nav/Nav.js";
 import AboutPage from "../AboutPage/AboutPage.js";
 import Footer from "../Footer/Footer.js";
 
-class App extends React.Component{
+import navConfig from "../../data/config/config.json";
+export default class App extends React.Component{
   render(){
     return (
       <div>
-        <TitleBar />
+        <Nav logo={navConfig.logo} options={navConfig.options}></Nav>
         <AboutPage />
         <Footer />
       </div>
@@ -16,4 +16,3 @@ class App extends React.Component{
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("react"));

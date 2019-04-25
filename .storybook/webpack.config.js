@@ -1,18 +1,75 @@
-// you can use this file to add your custom webpack plugins, loaders and anything you like.
-// This is just the basic way to add additional webpack configurations.
-// For more information refer the docs: https://storybook.js.org/configurations/custom-webpack-config
+var path = require("path");
+var webpack = require("webpack");
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
-// IMPORTANT
-// When you add this file, we won't add the default configurations which is similar
-// to "React Create App". This only has babel loader to load JavaScript.
+
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-  plugins: [
-    // your custom plugins
-  ],
-  module: {
-    rules: [
-      // add your custom rules.
-    ],
+  entry: "./src/index.js",
+  output: {
+    filename: "build/app.bundle.js"
   },
+  module: {
+
+    rules: [   
+      {
+        test: /\.js$/,
+        loader: "babel-loader",
+        query: {
+          plugins: ["recharts"],
+          presets: ["@babel/env", "@babel/react"]
+        }
+      },
+      {
+        test: /\.css$/,
+        loader: "style-loader"
+      }, {
+        test: /\.css$/,
+        loader: "css-loader",
+        query: {
+          modules: true,
+          localIdentName: "[name]__[local]___[hash:base64:5]"
+        }
+      },
+      {
+        test: /\.(scss)$/,
+        use: [{
+          loader: "style-loader", // inject CSS to page
+        }, {
+          loader: "css-loader", // translates CSS into CommonJS modules
+        }, {
+          loader: "postcss-loader", // Run post css actions
+          options: {
+            plugins: function () { // post css plugins, can be exported to postcss.config.js
+              return [
+                require("precss"),
+                require("autoprefixer")
+              ];
+            }
+          }
+        }, {
+          loader: "sass-loader" // compiles Sass to CSS
+        }]
+      },
+    ]
+  },
+  stats: {
+    colors: true
+  },
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        cache: true,
+        parallel: true,
+        uglifyOptions: {
+          compress: false,
+          ecma: 6,
+          mangle: true
+        },
+        sourceMap: true
+      })
+    ]
+  },
+  devtool: "source-map"
 };

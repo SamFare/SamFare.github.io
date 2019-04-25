@@ -6,7 +6,7 @@ const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-  entry: "./src/app/app.js",
+  entry: "./src/index.js",
   output: {
     filename: "./build/app.bundle.js"
   },
