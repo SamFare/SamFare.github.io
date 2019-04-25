@@ -26,16 +26,18 @@ exports[`a bar chart element it has the image that was passed in 1`] = `
       viewBox="0 0 900 400"
       width={900}
     >
-      <clipPath
-        id="recharts2-clip"
-      >
-        <rect
-          height={360}
-          width={790}
-          x={80}
-          y={5}
-        />
-      </clipPath>
+      <defs>
+        <clipPath
+          id="recharts2-clip"
+        >
+          <rect
+            height={360}
+            width={790}
+            x={80}
+            y={5}
+          />
+        </clipPath>
+      </defs>
       <g
         className="recharts-cartesian-grid"
       >
