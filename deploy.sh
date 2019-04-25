@@ -33,7 +33,7 @@ eval "mkdir ${tmpFile}/build/"
 echo "$tmpFile and subdirs made"
 
 eval "cp ./assets/* ${tmpFile}/assets"
-eval "cp ./build/* ${tmpFile}/build"
+eval "cp ./dist/build/* ${tmpFile}/build"
 eval "cp index.css ${tmpFile}"
 eval "cp index.html ${tmpFile}"
 
