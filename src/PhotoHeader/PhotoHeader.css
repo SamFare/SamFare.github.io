@@ -6,6 +6,7 @@
     color: white;
     overflow: hidden;
     margin: -100px 0 0 0;
+    background-size: cover;
 }
 
 .bottomRight {
@@ -14,9 +15,4 @@
     right: 16px;
     font-size: 150px;
     padding: 0;
-}
-
-.photo {
-    width: 100%;
-    overflow: hidden;
 }

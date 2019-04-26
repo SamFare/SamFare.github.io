@@ -17,8 +17,7 @@ export default class PhotoHeader extends React.Component{
 
   render(){
     return (
-      <div className={css.photoHeader}>
-        <img className={css.photo} src="assets/about-page-pic.jpg" />
+      <div style={{"backgroundImage": `url(${this.props.imgUrl})`}} className={`${css.photoHeader} qa-photo`}>
         <div className={css.bottomRight}>{this.props.text}</div>
       </div> 
     );
