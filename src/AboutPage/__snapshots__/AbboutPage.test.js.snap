@@ -1,18 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`an about page= it has the image that was passed in 1`] = `
+exports[`an about page it has the image that was passed in 1`] = `
 <div>
   <div
     className="undefined qa-photo"
     style={
       Object {
-        "backgroundImage": undefined,
+        "backgroundImage": "url(assets/about-page-pic.jpg)",
       }
     }
   >
-    <img
-      src="assets/about-page-pic.jpg"
-    />
     <div />
   </div>
   <div>
