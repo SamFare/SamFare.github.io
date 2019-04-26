@@ -9,7 +9,7 @@ Enzyme.configure({ adapter: new Adapter() });
 
 let context = {};
 
-describe("an about page=", () => {
+describe("an about page", () => {
   beforeEach(() => {
     context.aboutPage = renderer.create(
       <AboutPage />
