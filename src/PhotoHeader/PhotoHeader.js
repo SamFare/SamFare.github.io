@@ -33,7 +33,11 @@ export default class PhotoHeader extends React.Component{
   render(){
     return (
       <div style={{"backgroundImage": this.state.imgUrlToDisplay}} className={`${css.photoHeader} qa-photo`}>
-        <div className={css.bottomRight}>{this.props.text}</div>
+        {
+          this.props.text
+            ? <h2 className={`${css.photoHeaderText} qa-text`}>{this.props.text}</h2>
+            : <noscript />
+        } 
       </div> 
     );
   }

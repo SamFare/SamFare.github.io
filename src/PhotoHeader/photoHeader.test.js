@@ -33,13 +33,20 @@ test("the wrapper changes the image when changed to mobile view", () => {
   expect(wrapper.find(".qa-photo").prop("style")).toHaveProperty("backgroundImage", "url(testMob.png)");
 });
 
-describe("an about page=", () => {
-  beforeEach(() => {
-    
-  });
-
-  it("it has the image that was passed in", () => {
-    const aboutPage = renderer.create(<PhotoHeader imgUrl={"test.png"} mobileImgUrl={"testMob.png"}/> );
-    expect(aboutPage).toMatchSnapshot();
-  });
+test("When text is not added it is not over the image", () => {
+  const wrapper = mount(<PhotoHeader imgUrl={"test.png"} mobileImgUrl={"testMob.png"}/>); 
+  expect(wrapper.find(".qa-text").length).toEqual(0);
 });
+
+test("When text is added it is displayed over the image", () => {
+  const wrapper = mount(<PhotoHeader text={"some text"} imgUrl={"test.png"} mobileImgUrl={"testMob.png"}/>);
+  const textElementWrapper = wrapper.find(".qa-text"); 
+  expect(textElementWrapper.length).toEqual(1);
+  expect(textElementWrapper.text()).toEqual("some text");
+});
+
+it("it has the image that was passed in", () => {
+  const aboutPage = renderer.create(<PhotoHeader imgUrl={"test.png"} mobileImgUrl={"testMob.png"}/> );
+  expect(aboutPage).toMatchSnapshot();
+});
+
