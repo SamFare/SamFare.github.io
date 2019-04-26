@@ -35,7 +35,8 @@ echo "$tmpFile and subdirs made"
 eval "cp ./assets/* ${tmpFile}/assets"
 eval "cp ./dist/build/* ${tmpFile}/build"
 eval "cp index.css ${tmpFile}"
-eval "cp index.html ${tmpFile}"
+eval "cp index.html ${tmpFile}/newpage.html"
+eval "cp coming-soon.html ${tmpFile}/index.html"
 
 git checkout gh-pages
 
@@ -53,6 +54,7 @@ eval "cp ${tmpFile}/assets/* ./assets/"
 eval "cp ${tmpFile}/build/* ./build/ "
 eval "cp ${tmpFile}/index.css ."
 eval "cp ${tmpFile}/index.html ."
+eval "cp ${tmpFile}/newpage.html ."
 
 echo "########################"
 echo "AWOOOOGA WOOOOGA"
