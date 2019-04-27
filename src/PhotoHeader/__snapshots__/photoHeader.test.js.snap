@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`an about page= it has the image that was passed in 1`] = `
+exports[`it has the image that was passed in 1`] = `
 <div
   className="undefined qa-photo"
   style={
@@ -9,6 +9,9 @@ exports[`an about page= it has the image that was passed in 1`] = `
     }
   }
 >
-  <div />
+  <noscript />
+  <div>
+    <noscript />
+  </div>
 </div>
 `;

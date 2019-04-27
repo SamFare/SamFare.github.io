@@ -27,13 +27,26 @@ export default class PhotoHeader extends React.Component{
       text: PropTypes.string, 
       imgUrl: PropTypes.string.isRequired, 
       mobileImgUrl: PropTypes.string.isRequired,
+      arrowImgUrl: PropTypes.string
     };  
   }
 
   render(){
     return (
       <div style={{"backgroundImage": this.state.imgUrlToDisplay}} className={`${css.photoHeader} qa-photo`}>
-        <div className={css.bottomRight}>{this.props.text}</div>
+        {
+          this.props.text
+            ? <h2 className={`${css.photoHeaderText} qa-text`}>{this.props.text}</h2>
+            : <noscript />
+        }
+        <div className={css.downArrowContainer}>
+          {
+            this.props.arrowImgUrl
+              ? <img src={this.props.arrowImgUrl} className={`${css.downArrow} qa-down-arrow`}></img>
+              : <noscript/>
+          }
+        </div>
+        
       </div> 
     );
   }
