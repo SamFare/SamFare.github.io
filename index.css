@@ -4,4 +4,9 @@ header {
 body section {
     font-family: "Courier New", Courier, monospace;  
     background:#fcfcfc;
+    
+}
+
+body { 
+    margin: 0px;
 }
