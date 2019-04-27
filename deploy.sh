@@ -1,4 +1,10 @@
 echo "########################"
+echo "Begining install of dependencies"
+echo "########################"
+
+npm i 
+
+echo "########################"
 echo "Begining build procedure"
 echo "########################"
 
