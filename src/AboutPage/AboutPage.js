@@ -15,7 +15,7 @@ export default class AboutPage extends React.Component{
   render(){
     return (
       <div>
-        <PhotoHeader arrowImgUrl={"assets/down-arrow.png"} text={"Modern, Clean, High Quality Software Engineering For People First Organisations"} mobileImgUrl={"assets/photoHeaderBackgroundMobile.jpg"} imgUrl={"assets/photoHeaderBackground.jpg"}/>
+        <PhotoHeader arrowImgUrl={"assets/down-arrow.png"} text={"Modern, Clean, High Quality Software Engineering For People First Organisations"} mobileImgUrl={"assets/photo-header-background-mobile.png"} imgUrl={"assets/photo-header-background.png"}/>
         <div className={css.centerDiv}>
           <Subheading text="About"/>
           <Paragraph text={aboutData.data}/>

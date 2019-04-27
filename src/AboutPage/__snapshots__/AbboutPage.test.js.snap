@@ -6,7 +6,7 @@ exports[`an about page it has the image that was passed in 1`] = `
     className="undefined qa-photo"
     style={
       Object {
-        "backgroundImage": "url(assets/photoHeaderBackground.jpg)",
+        "backgroundImage": "url(assets/photo-header-background.png)",
       }
     }
   >
