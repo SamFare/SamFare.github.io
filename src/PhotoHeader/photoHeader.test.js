@@ -45,8 +45,29 @@ test("When text is added it is displayed over the image", () => {
   expect(textElementWrapper.text()).toEqual("some text");
 });
 
-it("it has the image that was passed in", () => {
+test("it has the image that was passed in", () => {
   const aboutPage = renderer.create(<PhotoHeader imgUrl={"test.png"} mobileImgUrl={"testMob.png"}/> );
   expect(aboutPage).toMatchSnapshot();
 });
 
+test("it adds a down button to the photo header", () => { 
+  const wrapper = mount(<PhotoHeader arrowImgUrl={"test.png"} text={"some text"} imgUrl={"test.png"} mobileImgUrl={"testMob.png"}/>);
+  const downArrowWrapper = wrapper.find(".qa-down-arrow"); 
+  expect(downArrowWrapper.length).toEqual(1);
+});
+
+test.each`
+fileUrl
+${"./test.png"}
+${"./test2.png"}
+`("The down button displays an image", ({fileUrl}) => { 
+  const wrapper = mount(<PhotoHeader arrowImgUrl={fileUrl} text={"some text"} imgUrl={"test.png"} mobileImgUrl={"testMob.png"}/>);
+  const downArrowWrapper = wrapper.find(".qa-down-arrow"); 
+  expect(downArrowWrapper.prop("src")).toEqual(fileUrl);
+});
+
+test("when there is no down arrow added, it is not displayed", () => { 
+  const wrapper = mount(<PhotoHeader text={"some text"} imgUrl={"test.png"} mobileImgUrl={"testMob.png"}/>);
+  const downArrowWrapper = wrapper.find(".qa-down-arrow"); 
+  expect(downArrowWrapper.length).toEqual(0);
+});

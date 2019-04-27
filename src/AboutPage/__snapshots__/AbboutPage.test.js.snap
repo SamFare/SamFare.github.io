@@ -11,6 +11,9 @@ exports[`an about page it has the image that was passed in 1`] = `
     }
   >
     <noscript />
+    <div>
+      <noscript />
+    </div>
   </div>
   <div>
     <div>

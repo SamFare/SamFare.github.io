@@ -10,5 +10,8 @@ exports[`it has the image that was passed in 1`] = `
   }
 >
   <noscript />
+  <div>
+    <noscript />
+  </div>
 </div>
 `;
