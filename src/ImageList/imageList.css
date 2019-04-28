@@ -1,0 +1,30 @@
+.listContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin: 0vh 10vw 0vh 10vw; 
+}
+
+.listItem {
+    width: 10vw;
+    margin: auto;
+    animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .listItem {
+        width: 15vw;
+        margin: auto;
+    }
+
+    .listContainer {
+        height: 20vh;
+        margin: 0vh 5vw 0vh 5vw 
+    }
+}
