@@ -25,3 +25,8 @@ ${"test2.png"}
   const wrapper = mount(<ImageList images={[{url: name}]} />);
   expect(wrapper.find("img").prop("src")).toEqual(name);
 });
+
+test("the list elements fade in onto the screen", () => { 
+  const wrapper = mount(<ImageList images={[{url: name}]} />);
+  expect(wrapper.find("img").prop("style")).toHaveProperty("animation");
+});

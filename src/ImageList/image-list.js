@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import css from "./imageList.css";
 
 const ImageList = (props) => { 
   return(
-    <div>
+    <div className={css.listContainer}>
       {
         props.images.map((img, index) => { 
-          return <img src={img.url} key={index} /> ;
+          return <img className={css.listItem} src={img.url} key={index} /> ;
         })
       }
     </div>
