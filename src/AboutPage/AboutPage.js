@@ -26,10 +26,6 @@ export default class AboutPage extends React.Component{
         <div className={css.centerDiv}>
           <Subheading text="My Background"/>
           <ImageList images={images} />
-          <Subheading text="What I'm up too"/>
-          <ListOfTextElement elements={activityData.data} />
-          <Subheading text="Experience"/>
-          < ListOfTextElement elements={careerData.data} />
         </div>
       </div>
     );

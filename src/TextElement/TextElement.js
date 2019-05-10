@@ -26,7 +26,7 @@ export default class TextElement extends React.Component{
         </div>
         <div> 
           <div className={css.textHeading}> {this.props.title} </div> 
-          <div className={css.textElement}>
+          <div className={css.textElementText}>
             {this.props.text}
           </div> 
         </div> 

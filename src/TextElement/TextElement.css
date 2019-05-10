@@ -4,29 +4,32 @@ div .textElementInverted {
 }
 
 .textElement, .textHeading, .textHeadingInverted, .textElementInverted {
-    display: inline-block;
-    display: flex;
-    margin: 20px;
+    display: block;
     white-space:pre-wrap;
-    width:100%;
+    max-width: 100vw;
 }
 
 .textHeading, .textHeadingInverted {
-    text-decoration: underline;
-    font-size: 18pt;
+    padding-top: 1vh;
+    font-size: 24pt;
+    font-family: 'Haettenschweiler', sans-serif;
+    color: #555962;
 }
 
 .textHeadingInverted { 
     padding-right: 20px;
 }
 
-.subElement {
-    float: none;
-    display: inline-block;
+.subElement { 
+    float: left;
     margin: 10px;
+    height: fit-content;
 }
 
 .experenceImg {
-    border-radius: 50%;
     border: 5px;
+}
+
+.textElementText {
+    max-width: 100vw;
 }
