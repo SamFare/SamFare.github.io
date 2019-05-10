@@ -8,5 +8,6 @@ const largeParagraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 storiesOf("textElement")
   .add("render with text", () => <TextElement title="really interesting title" text="this is some really interesting text. it's really really important" img="./textElement/down-arrow.png"/> )
   .add("render with large paragraph of text", () => <TextElement title="really interesting title" text={largeParagraph} img="./textElement/down-arrow.png"/> )
-  .add("render with large paragraph of text", () => <TextElement title="really square image" text={largeParagraph} img="./textElement/square.png"/> );
+  .add("render with large paragraph of text", () => <TextElement title="really square image" text={largeParagraph} img="./textElement/square.png"/> )
+  .add("render with right orientation", () => <TextElement orientation='right' title="really square image" text={largeParagraph} img="./textElement/square.png"/> );
   

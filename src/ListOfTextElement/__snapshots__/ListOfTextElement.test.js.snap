@@ -3,7 +3,14 @@
 exports[`there are three elements  matches the snapshot 1`] = `
 <div>
   <div>
-    <div>
+    <div
+      className="undefined qa-img"
+      style={
+        Object {
+          "float": "left",
+        }
+      }
+    >
       <img
         height="100"
         src="test.png"
@@ -11,7 +18,9 @@ exports[`there are three elements  matches the snapshot 1`] = `
       />
     </div>
     <div>
-      <div>
+      <div
+        className="undefined qa-header-text leftAlign"
+      >
          
          
       </div>
@@ -39,7 +48,14 @@ exports[`there are three elements  matches the snapshot 1`] = `
     </div>
   </div>
   <div>
-    <div>
+    <div
+      className="undefined qa-img"
+      style={
+        Object {
+          "float": "left",
+        }
+      }
+    >
       <img
         height="100"
         src="test3.png"
@@ -47,7 +63,9 @@ exports[`there are three elements  matches the snapshot 1`] = `
       />
     </div>
     <div>
-      <div>
+      <div
+        className="undefined qa-header-text leftAlign"
+      >
          
          
       </div>

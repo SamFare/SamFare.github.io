@@ -21,7 +21,6 @@ div .textElementInverted {
 }
 
 .subElement { 
-    float: left;
     margin: 10px;
     height: fit-content;
 }
@@ -32,4 +31,18 @@ div .textElementInverted {
 
 .textElementText {
     max-width: 100vw;
+}
+
+.leftAlign {
+    text-align: left;
+}
+
+.rightAlign {
+    text-align: right; 
+}
+
+@media only screen and (max-width: 600px) {
+    .rightAlign {
+        text-align: left; 
+    }
 }
