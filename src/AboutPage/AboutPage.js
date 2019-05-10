@@ -1,11 +1,8 @@
 import React from "react";
 
 import PhotoHeader from "../PhotoHeader/PhotoHeader.js";
-import ListOfTextElement from "../ListOfTextElement/ListOfTextElement.js";
 import Subheading from "../Subheading/Subheading.js";
 
-import careerData from "../../data/career-data.json";
-import activityData from "../../data/activity-data.json";
 import ImageList from "../ImageList/image-list.js";
 
 import css from "./AboutPage.css";
@@ -26,10 +23,6 @@ export default class AboutPage extends React.Component{
         <div className={css.centerDiv}>
           <Subheading text="My Background"/>
           <ImageList images={images} />
-          <Subheading text="What I'm up too"/>
-          <ListOfTextElement elements={activityData.data} />
-          <Subheading text="Experience"/>
-          < ListOfTextElement elements={careerData.data} />
         </div>
       </div>
     );

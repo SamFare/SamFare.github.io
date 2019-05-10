@@ -1,1 +1,4 @@
-module.exports = {};
+module.exports = {
+  leftAlign: "leftAlign",
+  rightAlign: "rightAlign" 
+};

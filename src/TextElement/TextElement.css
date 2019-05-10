@@ -1,32 +1,42 @@
-div .textElementInverted {
-    width: fit-content;
-    float: right;
-}
 
-.textElement, .textHeading, .textHeadingInverted, .textElementInverted {
-    display: inline-block;
-    display: flex;
-    margin: 20px;
+.textElement {
+    display: block;
     white-space:pre-wrap;
-    width:100%;
+    max-width: 100vw;
+    margin-bottom: 5px;
+    min-height: 100px;
 }
 
-.textHeading, .textHeadingInverted {
-    text-decoration: underline;
-    font-size: 18pt;
+.textHeading {
+    padding-top: 1vh;
+    font-size: 24pt;
+    font-family: 'Haettenschweiler', sans-serif;
+    color: #555962;
 }
 
-.textHeadingInverted { 
-    padding-right: 20px;
-}
-
-.subElement {
-    float: none;
-    display: inline-block;
+.subElement { 
     margin: 10px;
+    height: fit-content;
 }
 
 .experenceImg {
-    border-radius: 50%;
     border: 5px;
+}
+
+.textElementText {
+    max-width: 100vw;
+}
+
+.leftAlign {
+    text-align: left;
+}
+
+.rightAlign {
+    text-align: right; 
+}
+
+@media only screen and (max-width: 600px) {
+    .rightAlign {
+        text-align: left; 
+    }
 }
