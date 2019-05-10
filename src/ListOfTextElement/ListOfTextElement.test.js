@@ -2,11 +2,6 @@ import React from "react";
 import ListOfTextElement from "./ListOfTextElement.js";
 import renderer from "react-test-renderer";
 
-import Enzyme from "enzyme";
-import Adapter from "enzyme-adapter-react-16";
-
-Enzyme.configure({ adapter: new Adapter() });
-
 let context = {};
 
 describe("there are three elements ",  () => {
@@ -34,8 +29,16 @@ describe("there are three elements ",  () => {
     expect(context.listOfTextElement.getInstance().listItems[0].props.img).toEqual("test.png");
   });
 
-  test("matches the snapshot",() => {
-    expect(context.listOfTextElement).toMatchSnapshot();
+  test("every other item is oriented left", () => { 
+    expect(context.listOfTextElement.getInstance().listItems[0].props.orientation)
+      .toEqual("left");
+    expect(context.listOfTextElement.getInstance().listItems[2].props.orientation)
+      .toEqual("left");
+  });
+
+  test("the secound item is oriented right", () => { 
+    expect(context.listOfTextElement.getInstance().listItems[1].props.orientation)
+      .toEqual("right");
   });
 });
 

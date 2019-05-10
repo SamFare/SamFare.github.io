@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import TextElement from "../TextElement/TextElement.js";
-import InvertedTextElement from "../TextElement/InvertedTextElement.js";
 
 export default class ListOfTextElement extends React.Component{
   
@@ -32,9 +31,9 @@ export default class ListOfTextElement extends React.Component{
 
   selectCorrectJSXElementToAdd(jsonElement, index) {
     if(index % 2) {
-      return <InvertedTextElement key={index} title={jsonElement.title} text={jsonElement.text} img={jsonElement.img}/>;
+      return <TextElement orientation="right" key={index} title={jsonElement.title} text={jsonElement.text} img={jsonElement.img}/>;
     }
-    return <TextElement key={index} title={jsonElement.title} text={jsonElement.text} img={jsonElement.img}/>;
+    return <TextElement orientation="left" key={index} title={jsonElement.title} text={jsonElement.text} img={jsonElement.img}/>;
   }
 
   render(){
