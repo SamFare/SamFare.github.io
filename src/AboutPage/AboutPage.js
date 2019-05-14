@@ -23,6 +23,7 @@ export default class AboutPage extends React.Component{
         <div className={css.centerDiv}>
           <Subheading text="My Background"/>
           <ImageList images={images} />
+          <div className={css.spacer} /> 
         </div>
       </div>
     );
