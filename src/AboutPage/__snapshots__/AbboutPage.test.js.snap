@@ -44,6 +44,7 @@ exports[`an about page it has the image that was passed in 1`] = `
         src="assets/ctm.png"
       />
     </div>
+    <div />
   </div>
 </div>
 `;
