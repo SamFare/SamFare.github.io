@@ -12,7 +12,7 @@ export default class PhotoHeader extends React.Component{
   }
 
   getImage() { 
-    window.innerWidth > 600
+    window.innerWidth > 740
       ? this.setState({imgUrlToDisplay: `url(${this.props.imgUrl})`})
       : this.setState({imgUrlToDisplay: `url(${this.props.mobileImgUrl})`});
   }
