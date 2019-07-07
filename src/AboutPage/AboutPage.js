@@ -7,6 +7,7 @@ import Paragraph from "../Paragraph/Paragraph.js";
 import ImageList from "../ImageList/image-list.js";
 
 import aboutText from "../../data/about-data.json";
+import photoHeaderText from "../../data/photoHeader-data.json";
 
 const images = [
   {url: "assets/bbc.png"},
@@ -20,7 +21,7 @@ export default class AboutPage extends React.Component{
   render(){
     return (
       <div >
-        <PhotoHeader arrowImgUrl={"assets/down-arrow.png"} text={"Modern, Clean, High Quality Software Engineering For People First Organisations"} mobileImgUrl={"assets/photo-header-background-mobile.png"} imgUrl={"assets/photo-header-background.png"}/>  
+        <PhotoHeader arrowImgUrl={"assets/down-arrow.png"} text={photoHeaderText.data} mobileImgUrl={"assets/photo-header-background-mobile.png"} imgUrl={"assets/photo-header-background.png"}/>  
         <div>
           <Subheading text="About Me" />
           <Paragraph text={aboutText.data} />
