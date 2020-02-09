@@ -5,9 +5,11 @@ import css from "./Nav.css";
 const buildOptionMenu = (options) => { 
   return (<ul className={css.menu}>
     {
-      options.map(option => { 
-        return <li key={option.key} className={`${css.navButton} qa-option`}>{option.value}</li>;
-      })
+      options.map(option => (
+        <li key={option.key} className={`${css.navButton} qa-option`}>
+          <a href={option.link} className={`${css.navLink}`}>{option.value}</a>
+        </li>)
+      )
     }
   </ul> );
 };
