@@ -1,4 +1,15 @@
 {
     "logo": "assets/samfareme-logo.png",
-    "options": []
+    "options": [
+        { 
+            "key": 1, 
+            "value": "Blog",
+            "link": "https://medium.com/@samuel.fare"
+        }, 
+        { 
+            "key": 2, 
+            "value": "GitHub",
+            "link": "https://www.github.com/SamFare"
+        }
+    ]
 }

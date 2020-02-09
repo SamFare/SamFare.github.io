@@ -12,6 +12,11 @@
     z-index: 100;
 }
 
+.navLink { 
+    text-decoration: none;
+    color: #555962
+}
+
 .menu {
     height: inherit;
     padding: 0px 0px 0px 0px;

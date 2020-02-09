@@ -19,8 +19,20 @@ ${[{key: 1, value: "about"}, {key: 2, value: "experence"}]} |    ${2}
   expect(options.length).toEqual(expectedResult);
 });
 
+it("The nav navigated to the specified URL", () => {   
+  const wrapper = mount(<Nav options={[{key: 1, value: "about", link: "http://www.google.com"}]} />);
+  const options = wrapper.find(".qa-option").find("a");
+  expect(options.first().prop("href")).toEqual("http://www.google.com");
+});
+
 
 test("the nav options have the text specified", () => { 
+  const wrapper = mount(<Nav options={[{key: 1, value: "about"}]} />);
+  const options = wrapper.find(".qa-option");
+  expect(options.first().text()).toEqual("about");
+});
+
+test("the nav options redirect to a link if specified", () => { 
   const wrapper = mount(<Nav options={[{key: 1, value: "about"}]} />);
   const options = wrapper.find(".qa-option");
   expect(options.first().text()).toEqual("about");
